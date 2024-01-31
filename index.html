@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>User Data</title>
+  </head>
+  <body>
+    <h2>User Data</h2>
+    <form id="userForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required />
+      <br />
+     <label for="email">Email:</label>
+      <input type="email" id="email" required />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" required />
+      <br />
+    <button type="button" id="btn">Add User</button>
+    </form>
+ <table border="1">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  <script src="script.js"></script>
+  </body>
+</html>
